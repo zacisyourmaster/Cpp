@@ -1,0 +1,33 @@
+-----calling the constructor-----
+-----calling empty-----
+Empty
+-----calling push 1--------
+-----calling push 2--------
+-----calling empty-----
+Not empty
+-----calling getTop(non-const)-----
+2
+-----calling operator<<-----
+--- Top ---
+2
+1
+--- Bottom ---
+
+------Testing getTop(const)------
+2
+-----calling pop-----
+-----calling pop-----
+-----calling empty-----
+Empty
+-----calling operator<<-----
+--- Top ---
+--- Bottom ---
+
+-----testing exception of pop, calling pop-----
+Illegal operation of pop. - Stack is empty
+-----testing exception of getTop(non-const), calling getTop-----
+Illegal operation of getTop. - Stack is empty
+-----testing exception of getTop(const), calling getTop-----
+------Testing getTop(const)------
+Illegal operation of getTop. - Stack is empty
+-----testing destructor and destroy-----
