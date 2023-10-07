@@ -31,7 +31,7 @@ void merge(int ar[], int first, int last)
             i++;
             right++;
         }
-        if (ar[left] < ar[right]) {
+        if (ar[left] <= ar[right]) {
             temp[i] = ar[left];
             i++;
             left++;
