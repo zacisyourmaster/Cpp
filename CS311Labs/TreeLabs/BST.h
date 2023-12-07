@@ -248,10 +248,11 @@ int BST<T>::getMaxLength(Node<T>* p) //private function. Why?
 	int leftLen = getMaxLength(p->left);
 	int rightLen = getMaxLength(p->right);
 
-	if (leftLen > rightLen)
+	/*if (leftLen > rightLen)
 		return leftLen + 1;
 	else
-		return rightLen + 1;
+		return rightLen + 1;*/
+	return leftLen>rightLen? leftLen+1 : rightLen+1;
 }
 
 
